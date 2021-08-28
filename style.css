@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 600px;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+li{
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+li a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(228, 105, 228);
+    border-bottom: 2px dotted blueviolet;
+}
+
+input{
+    width: 100%;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; kalau valuenya sama tulis satu saja*/
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(215, 172, 255);
+    margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#input-btn{
+    background-color: blueviolet;
+    color: cornsilk;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px; kalau dua nilai sma, atas-bawah dan kanan-kiri tulis sperti dbwah */
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px; 
+}
+
+#tab-btn{
+    color: blueviolet;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border: 1px solid blueviolet;  
+    border-radius: 10px;  
+}
+
+#delete-btn{
+    background-color: rgb(233, 51, 51);
+    color: cornsilk;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px; 
+}
